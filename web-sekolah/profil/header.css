@@ -1,0 +1,133 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.title {
+  border-bottom: 4px slateblue solid;
+  display: flex;
+  gap: 150px;
+  background-color: #433159;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 5px;
+}
+
+.logo h1 {
+  color: white;
+}
+
+.logo img {
+  width: 10%;
+  border-radius: 100px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.border {
+}
+
+/* Reset CSS dasar */
+
+/* Navigasi utama */
+.nav {
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.menu-item {
+  position: relative;
+}
+
+.menu-link {
+  display: block;
+  padding: 15px 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.menu-link:hover {
+  background-color: #433159;
+}
+
+/* Sub-menu */
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #433159;
+  list-style: none;
+  min-width: 150px;
+  z-index: 1000;
+}
+
+.sub-menu-item .sub-menu-link {
+  display: block;
+  padding: 10px 15px;
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.sub-menu-link:hover {
+  background-color: #6f479f;
+}
+
+/* Tampilkan sub-menu saat hover */
+.menu-item.dropdown:hover .sub-menu {
+  display: block;
+}
+
+/* Responsif */
+@media (max-width: 422px) {
+  .title {
+    gap: 5px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 5px;
+  }
+
+  .logo h1 {
+    color: white;
+    font-size: 15px;
+  }
+
+  .logo img {
+    width: 30%;
+    border-radius: 100px;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+  }
+  .menu-item {
+    gap: 1px;
+    font-size: 10px;
+  }
+  li {
+    gap: 1px;
+  }
+}
+
+/* Tambahkan transisi untuk animasi */
+.menu,
+.sub-menu {
+  transition: all 0.3s ease;
+}

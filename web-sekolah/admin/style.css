@@ -1,0 +1,107 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+p a {
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.title {
+  color: #ffffff;
+  background-color: #52307c;
+  display: flex;
+  gap: 400px;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 2px white solid;
+}
+.left {
+  display: flex;
+  gap: 20px;
+}
+.sidebar {
+  background-color: #52307c;
+  height: 100vh;
+  gap: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.option {
+  color: white;
+  text-transform: uppercase;
+  border: 1px white solid;
+}
+.galeri form {
+  display: grid;
+}
+.berita {
+  border-bottom: 3px black solid;
+}
+.berita form {
+  display: grid;
+  gap: 10px;
+}
+form input[type="text"] {
+  height: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  width: 50%;
+}
+button {
+  background-color: #52307c;
+  border-radius: 5px;
+  color: white;
+  height: 20px;
+  width: 100px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #4f3c67;
+}
+.galeri-result {
+  color: #52307c;
+}
+table {
+  border: 3px black solid;
+  width: 100%;
+  border-collapse: collapse;
+}
+table thead th {
+  background-color: #52307c;
+  border-bottom: 2px #9671c4 solid;
+  padding: 20px;
+  color: white;
+}
+tbody tr td {
+  padding: 5px;
+  text-align: center;
+}
+tbody tr:hover {
+  background-color: #8e8e8e33;
+}
+table thead tr {
+  gap: 10px;
+}
+.komen {
+  margin-top: 100px;
+  padding: 20px;
+}
+.daftar {
+  margin-top: 100px;
+  padding: 20px;
+}
+.button {
+  display: grid;
+}

@@ -1,0 +1,63 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: rgb(116,9,121);
+background: linear-gradient(90deg, rgba(116,9,121,1) 35%, rgba(239,0,255,1) 100%);
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    color: rgb(219, 51, 234);
+}
+.wrap{
+    
+    width: 20%;
+    height: 70vh;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    padding: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+    height: 20px;
+}
+
+label{
+    font-size: 20px;
+    color: rgb(219, 51, 234);;
+}    
+input[type="text"]
+{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="text"]:focus{
+    border-color:  rgb(219, 51, 234);
+    box-shadow: 0 0 8px rgba(98, 0, 234, 0.2);
+}
+button{
+    background-color: rgb(219, 51, 234);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 50%;
+    color: white;
+}
+a {
+    color: inherit; /* Menyesuaikan warna teks dengan elemen induk */
+    text-decoration: none; /* Menghilangkan garis bawah */
+}
+.done{
+    color:  rgb(219, 51, 234);;
+}

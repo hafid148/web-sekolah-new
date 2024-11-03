@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrap {
+  display: flex;
+  padding: 10px;
+  border: 1px black solid;
+  width: 40%;
+}
+
+@media (max-width: 417px) {
+  .wrap {
+    width: 50%;
+  }
+  img {
+    width: 50%;
+  }
+}
